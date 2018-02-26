@@ -1,0 +1,9 @@
+Action page
+<script type="text/javascript">
+	
+	var url_string = window.location.href; // www.test.com?filename=test
+    var url = new URL(url_string);
+    var paramValue = url.searchParams.get("firstname");
+    alert(paramValue)
+</script>
+<label id="firstname"></label>
